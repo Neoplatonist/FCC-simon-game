@@ -1,0 +1,41 @@
+*, *::before, *::after { 
+  box-sizing: border-box; 
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+.board-choices {
+  margin: 20px 30px;
+  height: 150px;
+  width: 150px;
+  line-height: 150px;
+  font-size: 50px;
+}
+
+.control {
+  width: 150px;
+}
+
+#notification {
+  display: block;
+}
+
+#display {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color: red;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.switch {
+  margin-top: 15px;
+}
+
+.switch strong {
+  margin-right: 15px;
+}
+

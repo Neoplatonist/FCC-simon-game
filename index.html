@@ -17,8 +17,80 @@
 </head>
 <body>
 
+  <header>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper blue-grey darken-2">
+          <a href="/" class="brand-logo center">Simon Game</a>
+        </div>
+      </nav>
+    </div>
+  
+    <div id="notification" class="orange center"></div>
+  </header>
 
-  <h1>Hello, World!</h1>
+  <main>
+    <div id="choices" class="row">
+      <div class="col s12 center table">
+        <div class="row">
+          <a 
+            id="green" 
+            class="board-choices waves-effect waves-light btn-large green darken-2">
+          </a>
+
+          <a 
+            id="red" 
+            class="board-choices waves-effect waves-light btn-large red darken-2">
+          </a>
+        </div>
+
+        <div class="row">
+          <a 
+            id="yellow" 
+            class="board-choices waves-effect waves-light btn-large yellow darken-2">
+          </a>
+
+          <a 
+            id="blue" 
+            class="board-choices waves-effect waves-light btn-large blue darken-2">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <h3 id="display" class="center">--</h3>
+    </div>
+
+    <div id="controls" class="row">
+      <div class="col s12 center">
+        <a 
+          id="start" 
+          class="control waves-effect waves-light btn-large blue-grey lighten-3">
+        Start
+        </a>
+
+        <a 
+          id="restart" 
+          class="control waves-effect waves-light btn-large deep-orange lighten-1">
+        Restart
+        </a>
+
+        <div class="switch">
+          <strong>Strict Mode</strong>
+
+          <label>
+            Off
+            <input type="checkbox">
+            <span class="lever"></span>
+            On
+          </label>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
 
 
   <script 
